@@ -1,0 +1,21 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Knmi.Synops",
+            "Settings": {
+                "StructureType": "TimeSeries",
+                "LocationCodes": [
+                    "06209"
+                ],
+                "StartDate": "20250327000000",
+                "EndDate": "20250328000000",
+                "VariableCodes": [
+                    "TMP"
+                ]
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}

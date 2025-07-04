@@ -1,0 +1,21 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Knmi.IrisUnvalidated",
+            "Settings": {
+                "StructureType": "TimeSeries",
+                "LocationCodes": [
+                    "550"
+                ],
+                "StartDate": "20250101080000",
+                "EndDate": "20250201080000",
+                "VariableCodes": [
+                    "SnowDepth"
+                ]
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Knmi.AwsTenMinutes",
+            "Settings": {
+                "StructureType": "TimeSeries",
+                "LocationCodes": [
+                    "06260"
+                ],
+                "StartDate": "20250101000000",
+                "EndDate": "20250102000000",
+                "VariableCodes": [
+                    "HorizontalVisibility"
+                ]
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}
