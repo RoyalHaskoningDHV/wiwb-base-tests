@@ -1,0 +1,19 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Knmi.RegionalEps",
+            "Settings": {
+                "LocationCodes": [
+                    "06235"
+                ],
+                "ModelDate": "20250401000000",
+                "VariableCodes": [
+                    "TMIN"
+                ]
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}

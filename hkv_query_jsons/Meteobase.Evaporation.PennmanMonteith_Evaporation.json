@@ -1,0 +1,30 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Meteobase.Evaporation.PennmanMonteith",
+            "Settings": {
+                "StartDate": "20240401000000",
+                "EndDate": "20240402000000",
+                "VariableCodes": [
+                    "Evaporation"
+                ],
+                "Interval": {
+                    "Type": "Days",
+                    "Value": 1
+                },
+                "Extent": {
+                    "Xll": 100000,
+                    "Yll": 300000,
+                    "Xur": 300000,
+                    "Yur": 600000,
+                    "SpatialReference": {
+                        "Epsg": 28992
+                    }
+                }
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}

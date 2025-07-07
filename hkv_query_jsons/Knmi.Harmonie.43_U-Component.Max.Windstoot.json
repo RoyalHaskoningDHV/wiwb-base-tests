@@ -1,0 +1,16 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Knmi.Harmonie.43",
+            "Settings": {
+                "ModelDate": "20250101000000",
+                "VariableCodes": [
+                    "U-Component.Max.Windstoot"
+                ]
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Ecmwf.Seasonal.Forecast",
+            "Settings": {
+                "ModelDate": "20250401000000",
+                "VariableCodes": [
+                    "msl"
+                ]
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}

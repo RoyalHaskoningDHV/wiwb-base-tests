@@ -1,0 +1,26 @@
+{
+    "Readers": [
+        {
+            "DataSourceCode": "Knmi.Radar.Uncorrected",
+            "Settings": {
+                "StartDate": "20250401000000",
+                "EndDate": "20250101010000",
+                "VariableCodes": [
+                    "P"
+                ],
+                "Extent": {
+                    "Xll": 100000,
+                    "Yll": 300000,
+                    "Xur": 300000,
+                    "Yur": 600000,
+                    "SpatialReference": {
+                        "Epsg": 28992
+                    }
+                }
+            }
+        }
+    ],
+    "Exporter": {
+        "DataFormatCode": "json"
+    }
+}
